@@ -1,0 +1,106 @@
+/*layout and structure*/
+
+body{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-family: 'Montserrat';
+}
+.layout{
+    max-width: 971px;
+    padding: 100px 30px;
+}
+
+/* supporting properties , single property classes*/
+
+.w-290{
+    max-width: 290px;
+    width: 100%;
+}
+.mb-sm{
+    margin-bottom: 10px;
+}
+.green{
+    color: #9AC93C;
+}
+
+/* styling each element from top to bottom */
+
+
+.heading{
+    margin-bottom: 25px;
+    text-align: center;
+    font: normal normal bold 27px/33px Montserrat;
+    letter-spacing: 0px;
+    color: #202E4B;
+    opacity: 1;
+    margin-top: 185px;
+}
+.note1{
+    text-align: center;
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #202E4B;
+    opacity: 1;
+    margin-bottom: 25px;
+}
+.form{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #9AC93C;
+    border-radius: 22px;
+    padding: 30px 23px 10px 23px;
+    max-width: 971px;
+    margin-bottom: 400px;
+}
+.form-control{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    opacity: 1;
+    margin-bottom: 15px;
+    padding: 9px 10px;
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #202E4B;
+}
+.drop-options{
+    color: #737373;
+    margin-top: -15px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.drop-options>li{
+    border-bottom: 1px solid #6a6a6a;
+    font: normal normal normal 16px/19px Montserrat;
+}
+.message{
+    height: 118px;
+}
+.note2{
+    text-align: left;
+    font-family: 'Montserrat';
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #202E4B;
+} 
+
+/* send button */
+
+.send-btn{
+    width: 178px;
+    height: 32px;
+    padding: 7px 7px;
+    background-color: #9AC93C !important;
+    border-radius: 7px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    bottom: -27px;
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
